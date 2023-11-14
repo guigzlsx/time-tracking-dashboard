@@ -1,0 +1,158 @@
+body {
+  font-family: Rubik, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(235, 45%, 61%);
+  background-color: hsl(226, 43%, 10%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.grid_container {
+  padding-left: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  background-color: hsl(226, 43%, 10%);
+}
+.grid_container .grid_1 {
+  grid-column: 1;
+  grid-row: 1/3;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 13px;
+  background-color: hsl(235, 46%, 20%);
+}
+.grid_container .grid_1 .Daily {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.grid_container .grid_1 .Weekly {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.grid_container .grid_1 .Monthly {
+  padding-top: 15px;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+.grid_container .grid_1 .titre_1 {
+  font-size: 20px;
+  padding-bottom: 50px;
+  border-radius: 13px;
+  background-color: hsl(264, 64%, 52%);
+}
+.grid_container .grid_1 .titre_1 img {
+  margin-top: 20px;
+  width: 40%;
+  padding: 2px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.grid_container .grid_1 .titre_1 .jerem {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.grid_container .grid_1 .titre_1 .jerem p {
+  opacity: 0.5;
+}
+.grid_container .grid_2 {
+  border-radius: 13px;
+  padding-top: 40px;
+  height: 200px;
+  grid-column: 2;
+  grid-row: 1;
+  background-color: hsl(15, 100%, 70%);
+}
+.grid_container .grid_3 {
+  border-radius: 13px;
+  padding-top: 40px;
+  height: 200px;
+  grid-column: 3;
+  grid-row: 1;
+  background-color: hsl(195, 74%, 62%);
+}
+.grid_container .grid_4 {
+  border-radius: 13px;
+  padding-top: 40px;
+  height: 200px;
+  grid-column: 4;
+  grid-row: 1;
+  background-color: hsl(348, 100%, 68%);
+}
+.grid_container .grid_5 {
+  border-radius: 13px;
+  padding-top: 40px;
+  height: 200px;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: hsl(145, 58%, 55%);
+}
+.grid_container .grid_6 {
+  border-radius: 13px;
+  padding-top: 40px;
+  height: 200px;
+  grid-column: 3;
+  grid-row: 2;
+  background-color: hsl(264, 64%, 52%);
+}
+.grid_container .grid_7 {
+  border-radius: 13px;
+  padding-top: 40px;
+  height: 200px;
+  grid-column: 4;
+  grid-row: 2;
+  background-color: hsl(43, 84%, 65%);
+}
+.grid_container .contain {
+  border-radius: 13px;
+  background-color: hsl(235, 46%, 20%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  height: 100%;
+}
+.grid_container .contain .titre {
+  align-self: flex-start;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.grid_container .contain .heure {
+  font-size: 45px;
+  align-self: flex-start;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.grid_container .contain .Last_Week {
+  align-self: flex-start;
+  padding-top: 10px;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+.grid_container .contain:hover {
+  background-color: hsl(236, 58%, 25%);
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
